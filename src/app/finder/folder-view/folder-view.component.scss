@@ -1,0 +1,18 @@
+.tree-invisible {
+  display: none;
+}
+
+.tree ul,
+.tree li {
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style-type: none;
+}
+
+.tree .button {
+  color: initial;
+
+  &[disabled] {
+    font-weight: 400;
+  }
+}

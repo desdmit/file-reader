@@ -1,0 +1,15 @@
+<!--<mat-drawer-container class="container">
+  <mat-drawer mode="side" opened
+    ><app-folder-view></app-folder-view
+  ></mat-drawer>
+  <mat-drawer-content>Main content</mat-drawer-content>
+</mat-drawer-container>-->
+
+<mat-sidenav-container class="container">
+  <mat-sidenav mode="side" opened>
+    <app-folder-view [data]="data"></app-folder-view>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <app-file-view [data]="filesToShow"></app-file-view>
+  </mat-sidenav-content>
+</mat-sidenav-container>
